@@ -14,7 +14,7 @@ Ubuntu scripts repository.
 
 ### genSecDbPerRel.py
 
-genSecDbPerRel.py || GENerate SECurity DataBase PER RELease  
+genSecDbPerRel.py || __GEN__erate __SEC__urity __D__ata__B__ase __PER__ __REL__ease  
 
 A script to create the Ubuntu security database json only  
 for one target release to improve queries for USNs, CVEs  
