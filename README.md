@@ -1,6 +1,12 @@
-## ubuntu_scripts
+## ubuntu_scripts repository
 
-Ubuntu scripts repository.
+- [Purpose](#purpose)
+- [License](#license)
+- [Contact](#contact)
+
+## Purpose
+
+Ubuntu scripts repository. 
 
 ## License
 
