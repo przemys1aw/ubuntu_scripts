@@ -1,12 +1,12 @@
-## ToC
+## ubuntu_scripts repository
 
 - [ubuntu_scripts](#ubuntu_scripts)
 - [License](#license)
 - [Contact](#contact)
 
-## ubuntu_scripts
+## Purpose
 
-Ubuntu scripts repository.
+Ubuntu scripts repository. 
 
 ## License
 
