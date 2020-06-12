@@ -1,6 +1,8 @@
 ## ubuntu_scripts repository
 
 - [Purpose](#purpose)
+- [Scripts](#scripts)
+  - [genSecDbPerRel.py](#gensecdbperrelpy)
 - [License](#license)
 - [Contact](#contact)
 
