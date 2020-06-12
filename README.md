@@ -1,6 +1,6 @@
 ## ubuntu_scripts repository
 
-- [ubuntu_scripts](#ubuntu_scripts)
+- [Purpose](#purpose)
 - [License](#license)
 - [Contact](#contact)
 
