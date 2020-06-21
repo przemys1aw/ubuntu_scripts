@@ -1,5 +1,13 @@
 import apt
 
+def checkPackageIsInstalled(package):
+  aptCache = apt.cache.Cache()
+  for p in aptCache:
+    if p.is_installed:
+      if p.name == package:
+        return package
+        break
+
 def checkPackageUpgrade(package):
   aptCache = apt.cache.Cache()
   for p in aptCache:
