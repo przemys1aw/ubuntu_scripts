@@ -5,6 +5,5 @@ def checkPackage(package):
   for p in aptCache:
     if p.is_installed:
       if p.name == package:
-        if p.installed.version < package:
-          if p.versions[0].version > p.installed.version:
-            return package
+        if p.versions[0].version > p.installed.version:
+          return package
