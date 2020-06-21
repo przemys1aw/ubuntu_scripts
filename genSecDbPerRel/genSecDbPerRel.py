@@ -52,16 +52,16 @@ except:
 # functions
 def getSecDb():
   url = 'https://usn.ubuntu.com/usn-db/database.json'
-  secDbFile =  "./database.json"
+  secDbFilePath =  "./database.json"
 
-  if os.path.exists(secDbFile):
-    print("The local full monty database file {} is available.".format(secDbFile))
+  if os.path.exists(secDbFilePath):
+    print("The local full monty database file {} is available.".format(secDbFilePath))
   else:
-    print("The local full monty database file {} not found. Downloading it.".format(secDbFile))
-    urllib.request.urlretrieve(url, secDbFile)
+    print("The local full monty database file {} not found. Downloading it.".format(secDbFilePath))
+    urllib.request.urlretrieve(url, secDbFilePath)
     print("Download completed.")
 
-  with open('./database.json', 'r') as secDbFile:
+  with open(secDbFilePath, 'r') as secDbFile:
     dbObj = json.load(secDbFile)
     secDbFile.close()
   return dbObj
