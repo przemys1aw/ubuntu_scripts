@@ -8,7 +8,7 @@
 
 ## Purpose
 
-Ubuntu scripts repository. 
+Ubuntu scripts repository  
 
 ## Scripts
 
