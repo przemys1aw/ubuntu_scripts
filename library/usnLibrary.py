@@ -7,3 +7,4 @@ def checkPackage(package):
       if p.name == package:
         if p.versions[0].version > p.installed.version:
           return package
+          break
